@@ -1,7 +1,7 @@
 import Server from 'socket.io';
 
 export function startServer(store) {
-	const io = new Server().attach(8090);
+	const io = new Server().attach(8080);
 
 	console.log("socket io server started on port 8090 %o", io);
 
